@@ -1,0 +1,126 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/opt/twitter/bin/npm', 'publish' ]
+2 info using npm@1.4.6
+3 info using node@v0.10.26
+4 verbose node symlink /opt/twitter/bin/node
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/jschulz/.npm/3a52ce78-.lock
+11 verbose tar pack [ '/var/folders/hx/3v1tz14s48q9ff3l83v73whw0000gp/T/npm-81150-tSC1XHqt/1396539024281-0.43005277239717543/tmp.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball /var/folders/hx/3v1tz14s48q9ff3l83v73whw0000gp/T/npm-81150-tSC1XHqt/1396539024281-0.43005277239717543/tmp.tgz
+13 verbose folder .
+14 info prepublish d3-geo-greatArc@0.0.0
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. /Users/jschulz/.npm/1f1177db-tar.lock
+17 silly lockFile 6c82e727-4281-0-43005277239717543-tmp-tgz tar:///var/folders/hx/3v1tz14s48q9ff3l83v73whw0000gp/T/npm-81150-tSC1XHqt/1396539024281-0.43005277239717543/tmp.tgz
+18 verbose lock tar:///var/folders/hx/3v1tz14s48q9ff3l83v73whw0000gp/T/npm-81150-tSC1XHqt/1396539024281-0.43005277239717543/tmp.tgz /Users/jschulz/.npm/6c82e727-4281-0-43005277239717543-tmp-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile 6c82e727-4281-0-43005277239717543-tmp-tgz tar:///var/folders/hx/3v1tz14s48q9ff3l83v73whw0000gp/T/npm-81150-tSC1XHqt/1396539024281-0.43005277239717543/tmp.tgz
+22 silly lockFile 6c82e727-4281-0-43005277239717543-tmp-tgz tar:///var/folders/hx/3v1tz14s48q9ff3l83v73whw0000gp/T/npm-81150-tSC1XHqt/1396539024281-0.43005277239717543/tmp.tgz
+23 verbose tar unpack /var/folders/hx/3v1tz14s48q9ff3l83v73whw0000gp/T/npm-81150-tSC1XHqt/1396539024281-0.43005277239717543/tmp.tgz
+24 silly lockFile b3390ccd-4281-0-43005277239717543-package tar:///var/folders/hx/3v1tz14s48q9ff3l83v73whw0000gp/T/npm-81150-tSC1XHqt/1396539024281-0.43005277239717543/package
+25 verbose lock tar:///var/folders/hx/3v1tz14s48q9ff3l83v73whw0000gp/T/npm-81150-tSC1XHqt/1396539024281-0.43005277239717543/package /Users/jschulz/.npm/b3390ccd-4281-0-43005277239717543-package.lock
+26 silly lockFile 6c82e727-4281-0-43005277239717543-tmp-tgz tar:///var/folders/hx/3v1tz14s48q9ff3l83v73whw0000gp/T/npm-81150-tSC1XHqt/1396539024281-0.43005277239717543/tmp.tgz
+27 verbose lock tar:///var/folders/hx/3v1tz14s48q9ff3l83v73whw0000gp/T/npm-81150-tSC1XHqt/1396539024281-0.43005277239717543/tmp.tgz /Users/jschulz/.npm/6c82e727-4281-0-43005277239717543-tmp-tgz.lock
+28 silly gunzTarPerm modes [ '755', '644' ]
+29 silly gunzTarPerm extractEntry package.json
+30 silly gunzTarPerm extractEntry index.js
+31 silly lockFile b3390ccd-4281-0-43005277239717543-package tar:///var/folders/hx/3v1tz14s48q9ff3l83v73whw0000gp/T/npm-81150-tSC1XHqt/1396539024281-0.43005277239717543/package
+32 silly lockFile b3390ccd-4281-0-43005277239717543-package tar:///var/folders/hx/3v1tz14s48q9ff3l83v73whw0000gp/T/npm-81150-tSC1XHqt/1396539024281-0.43005277239717543/package
+33 silly lockFile 6c82e727-4281-0-43005277239717543-tmp-tgz tar:///var/folders/hx/3v1tz14s48q9ff3l83v73whw0000gp/T/npm-81150-tSC1XHqt/1396539024281-0.43005277239717543/tmp.tgz
+34 silly lockFile 6c82e727-4281-0-43005277239717543-tmp-tgz tar:///var/folders/hx/3v1tz14s48q9ff3l83v73whw0000gp/T/npm-81150-tSC1XHqt/1396539024281-0.43005277239717543/tmp.tgz
+35 verbose tar pack [ '/Users/jschulz/.npm/d3-geo-greatArc/0.0.0/package.tgz',
+35 verbose tar pack   '/var/folders/hx/3v1tz14s48q9ff3l83v73whw0000gp/T/npm-81150-tSC1XHqt/1396539024281-0.43005277239717543/package' ]
+36 verbose tarball /Users/jschulz/.npm/d3-geo-greatArc/0.0.0/package.tgz
+37 verbose folder /var/folders/hx/3v1tz14s48q9ff3l83v73whw0000gp/T/npm-81150-tSC1XHqt/1396539024281-0.43005277239717543/package
+38 silly lockFile b3390ccd-4281-0-43005277239717543-package tar:///var/folders/hx/3v1tz14s48q9ff3l83v73whw0000gp/T/npm-81150-tSC1XHqt/1396539024281-0.43005277239717543/package
+39 verbose lock tar:///var/folders/hx/3v1tz14s48q9ff3l83v73whw0000gp/T/npm-81150-tSC1XHqt/1396539024281-0.43005277239717543/package /Users/jschulz/.npm/b3390ccd-4281-0-43005277239717543-package.lock
+40 silly lockFile 747fea7f-3-geo-greatArc-0-0-0-package-tgz tar:///Users/jschulz/.npm/d3-geo-greatArc/0.0.0/package.tgz
+41 verbose lock tar:///Users/jschulz/.npm/d3-geo-greatArc/0.0.0/package.tgz /Users/jschulz/.npm/747fea7f-3-geo-greatArc-0-0-0-package-tgz.lock
+42 silly lockFile b3390ccd-4281-0-43005277239717543-package tar:///var/folders/hx/3v1tz14s48q9ff3l83v73whw0000gp/T/npm-81150-tSC1XHqt/1396539024281-0.43005277239717543/package
+43 silly lockFile b3390ccd-4281-0-43005277239717543-package tar:///var/folders/hx/3v1tz14s48q9ff3l83v73whw0000gp/T/npm-81150-tSC1XHqt/1396539024281-0.43005277239717543/package
+44 silly lockFile 747fea7f-3-geo-greatArc-0-0-0-package-tgz tar:///Users/jschulz/.npm/d3-geo-greatArc/0.0.0/package.tgz
+45 silly lockFile 747fea7f-3-geo-greatArc-0-0-0-package-tgz tar:///Users/jschulz/.npm/d3-geo-greatArc/0.0.0/package.tgz
+46 silly lockFile 5ee476eb-pm-d3-geo-greatArc-0-0-0-package /Users/jschulz/.npm/d3-geo-greatArc/0.0.0/package
+47 verbose lock /Users/jschulz/.npm/d3-geo-greatArc/0.0.0/package /Users/jschulz/.npm/5ee476eb-pm-d3-geo-greatArc-0-0-0-package.lock
+48 silly lockFile 5ee476eb-pm-d3-geo-greatArc-0-0-0-package /Users/jschulz/.npm/d3-geo-greatArc/0.0.0/package
+49 silly lockFile 5ee476eb-pm-d3-geo-greatArc-0-0-0-package /Users/jschulz/.npm/d3-geo-greatArc/0.0.0/package
+50 verbose tar unpack /Users/jschulz/.npm/d3-geo-greatArc/0.0.0/package.tgz
+51 silly lockFile f107e15b-pm-d3-geo-greatArc-0-0-0-package tar:///Users/jschulz/.npm/d3-geo-greatArc/0.0.0/package
+52 verbose lock tar:///Users/jschulz/.npm/d3-geo-greatArc/0.0.0/package /Users/jschulz/.npm/f107e15b-pm-d3-geo-greatArc-0-0-0-package.lock
+53 silly lockFile 747fea7f-3-geo-greatArc-0-0-0-package-tgz tar:///Users/jschulz/.npm/d3-geo-greatArc/0.0.0/package.tgz
+54 verbose lock tar:///Users/jschulz/.npm/d3-geo-greatArc/0.0.0/package.tgz /Users/jschulz/.npm/747fea7f-3-geo-greatArc-0-0-0-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 silly gunzTarPerm extractEntry package.json
+57 silly gunzTarPerm extractEntry index.js
+58 silly lockFile f107e15b-pm-d3-geo-greatArc-0-0-0-package tar:///Users/jschulz/.npm/d3-geo-greatArc/0.0.0/package
+59 silly lockFile f107e15b-pm-d3-geo-greatArc-0-0-0-package tar:///Users/jschulz/.npm/d3-geo-greatArc/0.0.0/package
+60 silly lockFile 747fea7f-3-geo-greatArc-0-0-0-package-tgz tar:///Users/jschulz/.npm/d3-geo-greatArc/0.0.0/package.tgz
+61 silly lockFile 747fea7f-3-geo-greatArc-0-0-0-package-tgz tar:///Users/jschulz/.npm/d3-geo-greatArc/0.0.0/package.tgz
+62 verbose chmod /Users/jschulz/.npm/d3-geo-greatArc/0.0.0/package.tgz 644
+63 verbose chown /Users/jschulz/.npm/d3-geo-greatArc/0.0.0/package.tgz [ 502, 20 ]
+64 silly lockFile 3a52ce78- .
+65 silly lockFile 3a52ce78- .
+66 silly publish { name: 'd3-geo-greatArc',
+66 silly publish   version: '0.0.0',
+66 silly publish   description: 'The d3.geo-greatArc function from d3',
+66 silly publish   main: 'index.js',
+66 silly publish   scripts:
+66 silly publish    { build: 'smash node_modules/d3/src/start.js node_modules/d3/src/geo/greatArc.js node_modules/d3/src/end.js | uglifyjs - -b -indent-level=2 -o index.js',
+66 silly publish      test: 'echo "Error: no test specified" && exit 1' },
+66 silly publish   repository:
+66 silly publish    { type: 'git',
+66 silly publish      url: 'https://github.com/jfsiii/d3-geo-greatArc.git' },
+66 silly publish   keywords: [ 'd3' ],
+66 silly publish   author: { name: 'JFSIII' },
+66 silly publish   license: 'ISC',
+66 silly publish   devDependencies: { d3: '^3.4.4', smash: '0.0.12', 'uglify-js': '^2.4.13' },
+66 silly publish   bugs: { url: 'https://github.com/jfsiii/d3-geo-greatArc/issues' },
+66 silly publish   readme: 'ERROR: No README data found!',
+66 silly publish   homepage: 'https://github.com/jfsiii/d3-geo-greatArc',
+66 silly publish   _id: 'd3-geo-greatArc@0.0.0',
+66 silly publish   dist: { shasum: 'd4be9c846c00233a2c9acc692d40727553218f43' },
+66 silly publish   _from: '.' }
+67 verbose url raw d3-geo-greatArc
+68 verbose url resolving [ 'https://registry.npmjs.org/', './d3-geo-greatArc' ]
+69 verbose url resolved https://registry.npmjs.org/d3-geo-greatArc
+70 info trying registry request attempt 1 at 08:30:24
+71 http PUT https://registry.npmjs.org/d3-geo-greatArc
+72 http 403 https://registry.npmjs.org/d3-geo-greatArc
+73 error publish Failed PUT 403
+74 error Error: forbidden New packages must have all-lowercase names: d3-geo-greatArc
+74 error     at RegClient.<anonymous> (/opt/twitter/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:254:14)
+74 error     at Request._callback (/opt/twitter/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:192:65)
+74 error     at Request.self.callback (/opt/twitter/lib/node_modules/npm/node_modules/request/request.js:123:22)
+74 error     at Request.EventEmitter.emit (events.js:98:17)
+74 error     at Request.<anonymous> (/opt/twitter/lib/node_modules/npm/node_modules/request/request.js:893:14)
+74 error     at Request.EventEmitter.emit (events.js:117:20)
+74 error     at IncomingMessage.<anonymous> (/opt/twitter/lib/node_modules/npm/node_modules/request/request.js:844:12)
+74 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+74 error     at _stream_readable.js:920:16
+74 error     at process._tickCallback (node.js:415:13)
+75 error If you need help, you may report this *entire* log,
+75 error including the npm and node versions, at:
+75 error     <http://github.com/npm/npm/issues>
+76 error System Darwin 13.1.0
+77 error command "node" "/opt/twitter/bin/npm" "publish"
+78 error cwd /Users/jschulz/Sites/d3-geo-greatArc
+79 error node -v v0.10.26
+80 error npm -v 1.4.6
+81 verbose exit [ 1, true ]
